@@ -12,7 +12,7 @@ This repository serves as a demonstration of how to leverage Rest Assured for co
 - **Authentication and Authorization**: Demonstrates handling of API authentication mechanisms.
 - **Data-Driven Testing**: Examples of using external data sources to drive test cases.
 - **Custom Request/Response Logging**: Techniques for enhanced logging and debugging.
-- **Error Handling**: Strategies for managing API error responses and exceptions.
+- **Sending request using a POJO with random data.**
 
 ## 🛫 Getting Started
 
@@ -31,8 +31,9 @@ To get started with this project, follow these steps:
 ## 🧑‍✈️ What You Get
 
 - Basic setup for Rest Assured for API testing
-- Examples of GET requests to the Star Wars API
+- Examples of GET, OST and DELETE requests to the Airline API
 - Validating JSON responses
+- CRUD methods
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to help improve this project.
