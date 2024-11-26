@@ -46,7 +46,6 @@ public class AirlinesTests extends TestConfigAirlinesApi {
                 .log().all();
     }
 
-
     @Test
     public void createReadAirlineWithRandomData() {
 
@@ -113,15 +112,37 @@ public class AirlinesTests extends TestConfigAirlinesApi {
                 .then()
                 .statusCode(200)
                 .log().all();
-
     }
 
 
+    @Test
+    public void createReadAirlinePOJOWithRandomData() {
 
+        Airline airline = new Airline();
 
+        System.out.println("Generated Airline Data: " + airline);
 
+        given()
+                .when()
+                .body(airline)
+                .post("airlines")
+                .then()
+                .statusCode(200)
+                .log().all();
 
+        Response response = given()
+                .body(airline)
+                .when()
+                .post("airlines");
 
-//    Todo test read de airline en check de gegevens
+        String airlineId = response.jsonPath().getString("_id");
+        String name = response.jsonPath().getString("name");
+
+        given()
+                .when()
+                .get("airlines/" + airlineId)
+                .then()
+                .assertThat().body("name", equalTo(name));
+    }
 
 }

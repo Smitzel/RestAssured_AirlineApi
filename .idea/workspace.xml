@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d16a586-73b3-4cb4-8ac2-7fc1db2089cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssured_AirlineApi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTests/AirlinesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/AirlinesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,7 @@
     "JUnit.AirlinesTests.PostAirlineWithFakerInPOJO.executor": "Run",
     "JUnit.AirlinesTests.PostAirlineWithFakerInPOJOWithUpdatedData.executor": "Run",
     "JUnit.AirlinesTests.createAirlineWithRandomData.executor": "Run",
+    "JUnit.AirlinesTests.createReadAirlinePOJOWithRandomData.executor": "Run",
     "JUnit.AirlinesTests.createReadAirlineWithRandomData.executor": "Run",
     "JUnit.AirlinesTests.executor": "Run",
     "JUnit.AirlinesTests.printStatusCode.executor": "Run",
@@ -63,7 +67,7 @@
       <recent name="C:\Workspace\RestAssured_AirlineApi\src\main\java\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AirlinesTests.PostAirlineWithFakerInPOJOWithUpdatedData">
+  <component name="RunManager" selected="JUnit.AirlinesTests.createReadAirlinePOJOWithRandomData">
     <configuration name="AirlinesTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_AirlineApi" />
       <extension name="coverage">
@@ -111,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirlinesTests.createAirlineWithRandomData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AirlinesTests.createReadAirlinePOJOWithRandomData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_AirlineApi" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +125,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="apiTests" />
       <option name="MAIN_CLASS_NAME" value="apiTests.AirlinesTests" />
-      <option name="METHOD_NAME" value="createAirlineWithRandomData" />
+      <option name="METHOD_NAME" value="createReadAirlinePOJOWithRandomData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AirlinesTests.createReadAirlinePOJOWithRandomData" />
         <item itemvalue="JUnit.AirlinesTests.PostAirlineWithFakerInPOJOWithUpdatedData" />
         <item itemvalue="JUnit.AirlinesTests.createReadAirlineWithRandomData" />
         <item itemvalue="JUnit.AirlinesTests.PostAirlineWithFakerInPOJO" />
         <item itemvalue="JUnit.AirlinesTests (1)" />
-        <item itemvalue="JUnit.AirlinesTests.createAirlineWithRandomData" />
       </list>
     </recent_temporary>
   </component>
