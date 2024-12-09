@@ -122,14 +122,6 @@ public class AirlinesTests extends TestConfigAirlinesApi {
 
         System.out.println("Generated Airline Data: " + airline);
 
-        given()
-                .when()
-                .body(airline)
-                .post("airlines")
-                .then()
-                .statusCode(200)
-                .log().all();
-
         Response response = given()
                 .body(airline)
                 .when()

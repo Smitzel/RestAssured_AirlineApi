@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d16a586-73b3-4cb4-8ac2-7fc1db2089cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/TestConfigAirlinesApiAuth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssured_AirlineApi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apiTests/AirlinesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/AirlinesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTests/AirlinesWithAuthTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/AirlinesWithAuthTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,8 @@
     "JUnit.AirlinesTests.executor": "Run",
     "JUnit.AirlinesTests.printStatusCode.executor": "Run",
     "JUnit.AirlinesTests.test2.executor": "Run",
+    "JUnit.AirlinesWithAuthTests.getWithAuth.executor": "Run",
+    "JUnit.AirlinesWithAuthTests.noAuth.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -66,39 +70,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\RestAssured_AirlineApi\src\main\java\utils" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="config" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AirlinesTests.createReadAirlinePOJOWithRandomData">
-    <configuration name="AirlinesTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_AirlineApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTests" />
-      <option name="MAIN_CLASS_NAME" value="apiTests.AirlinesTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AirlinesTests.PostAirlineWithFakerInPOJO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_AirlineApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTests" />
-      <option name="MAIN_CLASS_NAME" value="apiTests.AirlinesTests" />
-      <option name="METHOD_NAME" value="PostAirlineWithFakerInPOJO" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AirlinesWithAuthTests.getWithAuth">
     <configuration name="AirlinesTests.PostAirlineWithFakerInPOJOWithUpdatedData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_AirlineApi" />
       <extension name="coverage">
@@ -147,13 +123,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AirlinesWithAuthTests.getWithAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_AirlineApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.AirlinesWithAuthTests" />
+      <option name="METHOD_NAME" value="getWithAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirlinesWithAuthTests.noAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_AirlineApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.AirlinesWithAuthTests" />
+      <option name="METHOD_NAME" value="noAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AirlinesWithAuthTests.getWithAuth" />
+        <item itemvalue="JUnit.AirlinesWithAuthTests.noAuth" />
         <item itemvalue="JUnit.AirlinesTests.createReadAirlinePOJOWithRandomData" />
         <item itemvalue="JUnit.AirlinesTests.PostAirlineWithFakerInPOJOWithUpdatedData" />
         <item itemvalue="JUnit.AirlinesTests.createReadAirlineWithRandomData" />
-        <item itemvalue="JUnit.AirlinesTests.PostAirlineWithFakerInPOJO" />
-        <item itemvalue="JUnit.AirlinesTests (1)" />
       </list>
     </recent_temporary>
   </component>
