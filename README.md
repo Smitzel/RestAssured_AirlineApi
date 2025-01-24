@@ -4,7 +4,7 @@ Welcome to the Advanced Rest Assured Demo repository! This project showcases the
 
 ## 🛬 Overview
 
-This repository serves as a demonstration of how to leverage Rest Assured for complex API testing scenarios. By interacting with a fake airlines API, you can explore features like request/response validation, authentication, and data-driven testing.
+This repository serves as a demonstration of how to leverage Rest Assured for complex API testing scenarios. By interacting with a fake airlines API, you can explore features like request/response validation, authentication and usage of helper files.
 
 ## 🎯 Features
 

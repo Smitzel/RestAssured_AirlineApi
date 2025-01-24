@@ -6,8 +6,6 @@ import io.restassured.config.HttpClientConfig;
 import io.restassured.config.LogConfig;
 import org.junit.BeforeClass;
 
-import config.Authentication;
-
 import static config.Authentication.getAuthToken;
 
 public class TestConfigAirlinesApiAuth {

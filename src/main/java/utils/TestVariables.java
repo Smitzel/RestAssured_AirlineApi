@@ -1,0 +1,13 @@
+package utils;
+
+public enum TestVariables {
+    AIRLINE_ID,
+    AIRLINE_ID_GET,
+    PASSENGER_ID,
+    PASSENGER_ID_GET,
+    PASSENGER_NAME,
+    PASSENGER_NAME_GET,
+    PASSENGER_NAME_PATCH,
+    PASSENGER_TRIPS,
+    PASSENGER_TRIPS_GET,
+}

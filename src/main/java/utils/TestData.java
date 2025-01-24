@@ -7,7 +7,7 @@ import java.util.Random;
 
 
 public class TestData {
-    private static final Faker faker = new Faker();
+    public static final Faker faker = new Faker();
 
     public static String getUUID() {
         return UUID.randomUUID().toString();

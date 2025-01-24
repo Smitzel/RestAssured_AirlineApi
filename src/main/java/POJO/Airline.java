@@ -12,7 +12,7 @@ public class Airline {
     private String website;
     private String established;
 
-    // Constructor met DataFaker
+    // Constructor with DataFaker
     public Airline() {
         this.name = faker.company().name();
         this.country = faker.country().name();
